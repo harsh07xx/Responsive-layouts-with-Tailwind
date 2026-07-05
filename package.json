@@ -1,0 +1,13 @@
+{
+  "name": "signal-house-site",
+  "version": "1.0.0",
+  "description": "Signal House — Digital Product Studio landing page",
+  "private": true,
+  "scripts": {
+    "start": "npx live-server --port=8000 --open=/index.html",
+    "serve": "npx http-server -p 8000",
+    "format": "npx prettier --write \"**/*.html\""
+  },
+  "keywords": ["landing-page", "static-site", "tailwindcss"],
+  "license": "MIT"
+}
